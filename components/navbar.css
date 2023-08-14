@@ -92,6 +92,9 @@
     margin: auto;
     align-self: center;
   }
+  .navbar-root-class-name {
+    height: 200px;
+  }
 }
 @media(max-width: 479px) {
   .navbar-navbar {
@@ -104,5 +107,8 @@
     max-width: auto;
     align-self: center;
     padding-right: 0px;
+  }
+  .navbar-root-class-name {
+    height: 156px;
   }
 }
