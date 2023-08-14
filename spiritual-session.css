@@ -99,19 +99,10 @@
     padding-right: 6px;
   }
   .navbar-branding-logo {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 550px;
-    bottom: 0px;
-    height: 105px;
-    margin: auto;
-    max-width: 200px;
+    width: auto;
+    height: 70%;
+    max-width: auto;
     align-self: center;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 2px;
     padding-right: 0px;
   }
 }
