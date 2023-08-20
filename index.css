@@ -955,6 +955,7 @@
 .home-pricing {
   width: 100%;
   display: flex;
+  align-self: center;
   justify-content: center;
 }
 .home-container04 {
@@ -963,6 +964,7 @@
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
+  align-self: center;
   min-height: 794px;
   align-items: center;
   padding-top: 29px;
@@ -973,9 +975,10 @@
 }
 .home-container05 {
   flex: 0 0 auto;
-  width: 100%;
+  width: 40%;
   height: auto;
   display: flex;
+  align-self: center;
   align-items: center;
   flex-direction: column;
 }
@@ -984,6 +987,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  align-self: center;
   align-items: center;
   flex-direction: column;
 }
@@ -992,15 +996,16 @@
   width: 100%;
   height: 100%;
   display: flex;
+  position: relative;
+  align-self: center;
   align-items: flex-start;
 }
 .home-ul {
   width: 100%;
   height: 100%;
   display: flex;
-  position: relative;
-  font-size: 18;
-  align-self: flex-start;
+  font-size: 20;
+  align-self: center;
   margin-left: 0px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
   padding-left: var(--dl-space-space-unit);
@@ -1163,7 +1168,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-image: linear-gradient(135deg, rgba(242, 172, 172, 0.71) 7%, rgba(255, 98, 178, 0.72) 100%);
+  background-image: linear-gradient(135deg, rgb(242, 172, 172) 8.00%,rgb(255, 98, 178) 100.00%);
 }
 .home-link1:hover {
   color: #ffffff;
@@ -1606,6 +1611,9 @@
   .home-container04 {
     width: 100%;
   }
+  .home-container05 {
+    width: 50%;
+  }
   .home-ul {
     padding-left: var(--dl-space-space-twounits);
   }
@@ -1785,6 +1793,9 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-container05 {
+    width: 100%;
+  }
   .home-ul {
     width: 100%;
     height: 100%;
@@ -1930,7 +1941,7 @@
   }
   .home-container04 {
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
+    padding-left: 26px;
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
