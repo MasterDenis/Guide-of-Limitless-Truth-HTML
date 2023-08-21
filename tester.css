@@ -35,16 +35,6 @@
 .navbar-branding-logo:hover {
   width: 389px;
 }
-.navbar-container {
-  flex: 0 0 auto;
-  width: 200px;
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  background-size: cover;
-  background-image: url("public/Images/ewa_photo_2bd-300h.png");
-}
 .navbar-root-class-name {
   max-width: 100%;
   background-color: #ffffff;
@@ -102,16 +92,6 @@
     align-self: center;
     margin-right: auto;
   }
-  .navbar-container {
-    right: 0px;
-    width: var(--dl-size-size-xlarge);
-    bottom: 0px;
-    margin: auto;
-    position: absolute;
-    align-self: stretch;
-    align-items: flex-end;
-    justify-content: center;
-  }
   .navbar-root-class-name {
     height: 200px;
   }
@@ -127,11 +107,6 @@
     max-width: auto;
     align-self: center;
     padding-right: 0px;
-  }
-  .navbar-container {
-    width: var(--dl-size-size-medium);
-    height: var(--dl-size-size-medium);
-    display: none;
   }
   .navbar-root-class-name {
     height: 156px;
