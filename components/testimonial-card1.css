@@ -37,8 +37,11 @@
   color: #ffffff;
   font-size: 1.6em;
   align-self: center;
+  font-style: normal;
   text-align: center;
   transition: 0.3s;
+  font-family: Merienda;
+  font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
 .testimonial-card1-title:hover {
@@ -57,6 +60,7 @@
   max-height: var(--dl-size-size-xxlarge);
   text-align: center;
   transition: 0.3s;
+  font-family: Merienda;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .testimonial-card1-text:hover {
@@ -67,6 +71,7 @@
   font-size: 1.5rem;
   font-style: normal;
   transition: 0.3s;
+  font-family: Merienda;
   font-weight: 500;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -79,6 +84,7 @@
   font-style: normal;
   text-align: center;
   transition: 0.3s;
+  font-family: Merienda;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
