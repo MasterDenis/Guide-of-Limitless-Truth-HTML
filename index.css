@@ -21,7 +21,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  width: 500px;
+  width: 400px;
   bottom: 0px;
   cursor: pointer;
   height: auto;
@@ -102,7 +102,7 @@
     padding-right: 6px;
   }
   .navbar-branding-logo {
-    width: 400px;
+    width: 300px;
     height: auto;
     max-width: auto;
     align-self: center;
@@ -380,13 +380,15 @@
 }
 @media(max-width: 479px) {
   .footer-footer {
+    height: 230px;
     padding: var(--dl-space-space-unit);
+    margin-bottom: 0px;
     flex-direction: column;
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .footer-image {
-    width: 244px;
-    height: var(--dl-size-size-medium);
+    width: 310px;
+    height: auto;
     margin-bottom: 5px;
     padding-right: 0px;
   }
@@ -670,9 +672,9 @@
   display: flex;
   align-items: flex-start;
   padding-bottom: 40px;
-  background-size: cover;
+  background-size: contain;
   justify-content: center;
-  background-image: url('https://i.imgur.com/1fwJCQ6.png');
+  background-image: url('https://i.imgur.com/0QNjBBy.png');
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -700,6 +702,7 @@
   height: 97%;
   display: flex;
   align-items: flex-start;
+  padding-left: var(--dl-space-space-unit);
   flex-direction: column;
   padding-bottom: 11px;
 }
@@ -794,7 +797,7 @@
   position: relative;
   align-items: center;
   padding-left: var(--dl-space-space-twounits);
-  background-size: cover;
+  background-size: contain;
   justify-content: center;
   background-image: url('https://i.imgur.com/sbRxG7w.png');
   background-repeat: no-repeat;
@@ -1485,7 +1488,7 @@
 }
 @media(max-width: 991px) {
   .home-banner {
-    height: 281px;
+    height: 330px;
     padding-left: 68px;
   }
   .home-heading {
@@ -1559,6 +1562,8 @@
   }
   .home-container02 {
     margin-bottom: 4px;
+    background-size: contain;
+    background-position: center;
   }
   .home-hero1 {
     gap: var(--dl-space-space-fourunits);
@@ -1596,6 +1601,9 @@
   .home-image2 {
     margin-left: 4px;
   }
+  .home-container03 {
+    background-size: cover;
+  }
   .home-container05 {
     display: none;
   }
@@ -1603,6 +1611,9 @@
     left: 0px;
     right: 0px;
     margin: auto;
+  }
+  .home-pricing {
+    background-size: cover;
   }
   .home-container06 {
     width: 100%;
@@ -1656,6 +1667,7 @@
 }
 @media(max-width: 767px) {
   .home-banner {
+    height: 469px;
     align-items: flex-start;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -1722,6 +1734,9 @@
     font-family: Poppins;
     line-height: 24px;
   }
+  .home-container02 {
+    background-size: cover;
+  }
   .home-content1 {
     gap: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -1733,6 +1748,7 @@
   }
   .home-caption1 {
     color: rgb(255, 255, 255);
+    width: 70%;
     font-size: 16px;
     font-family: Poppins;
     line-height: 24px;
@@ -1752,6 +1768,9 @@
   .home-image2 {
     display: none;
   }
+  .home-container04 {
+    width: 60%;
+  }
   .home-testimonials-button {
     left: 0px;
     right: 0px;
@@ -1763,6 +1782,9 @@
   }
   .home-text053 {
     font-size: 20px;
+  }
+  .home-pricing {
+    background-size: contain;
   }
   .home-container06 {
     flex-flow: column;
@@ -1859,7 +1881,7 @@
 }
 @media(max-width: 479px) {
   .home-banner {
-    height: 216px;
+    height: 323px;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -1867,6 +1889,7 @@
     background-image: url("https://i.imgur.com/4TxCqjM.jpg");
   }
   .home-heading {
+    height: 100%;
     font-size: 30px;
   }
   .home-image {
@@ -1887,9 +1910,8 @@
   .home-heading1 {
     max-width: 280px;
   }
-  .home-services-1 {
-    background-image: linear-gradient(180deg, rgba(251, 164, 148, 0.64) 4.00%,rgba(255, 111, 0, 0) 100.00%,rgba(255, 111, 0, 0) 100.00%);
-    background-repeat: top left;
+  .home-container02 {
+    background-size: auto;
   }
   .home-content1 {
     padding-bottom: 3px;
@@ -1900,8 +1922,21 @@
   .home-heading2 {
     max-width: 280px;
   }
+  .home-caption1 {
+    width: 90%;
+  }
   .home-image2 {
     display: none;
+  }
+  .home-container03 {
+    background-size: cover;
+  }
+  .home-container04 {
+    width: 90%;
+  }
+  .home-text034 {
+    width: 100%;
+    height: 100%;
   }
   .home-testimonials-button-container {
     position: relative;
@@ -1915,6 +1950,9 @@
   }
   .home-text050 {
     color: rgb(255, 255, 255);
+  }
+  .home-pricing {
+    background-size: cover;
   }
   .home-container06 {
     padding-top: var(--dl-space-space-twounits);

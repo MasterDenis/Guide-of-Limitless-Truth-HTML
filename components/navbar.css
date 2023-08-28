@@ -21,7 +21,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  width: 500px;
+  width: 400px;
   bottom: 0px;
   cursor: pointer;
   height: auto;
@@ -102,7 +102,7 @@
     padding-right: 6px;
   }
   .navbar-branding-logo {
-    width: 400px;
+    width: 300px;
     height: auto;
     max-width: auto;
     align-self: center;

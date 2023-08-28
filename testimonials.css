@@ -21,7 +21,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  width: 500px;
+  width: 400px;
   bottom: 0px;
   cursor: pointer;
   height: auto;
@@ -102,7 +102,7 @@
     padding-right: 6px;
   }
   .navbar-branding-logo {
-    width: 400px;
+    width: 300px;
     height: auto;
     max-width: auto;
     align-self: center;
@@ -475,13 +475,15 @@
 }
 @media(max-width: 479px) {
   .footer-footer {
+    height: 230px;
     padding: var(--dl-space-space-unit);
+    margin-bottom: 0px;
     flex-direction: column;
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .footer-image {
-    width: 244px;
-    height: var(--dl-size-size-medium);
+    width: 310px;
+    height: auto;
     margin-bottom: 5px;
     padding-right: 0px;
   }
