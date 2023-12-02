@@ -48,7 +48,7 @@
   display: flex;
   margin-right: 14px;
   background-size: cover;
-  background-image: url("public/Icons/discord-200h.png");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-position: center;
 }
 .footer-container2:hover {
@@ -66,7 +66,7 @@
   display: flex;
   margin-right: 14px;
   background-size: cover;
-  background-image: url("public/Icons/youtube-200h.png");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-position: center;
 }
 .footer-container3:hover {
@@ -84,7 +84,7 @@
   display: flex;
   margin-right: 14px;
   background-size: cover;
-  background-image: url("public/Icons/gmail-200h.png");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-position: center;
 }
 .footer-container4:hover {
@@ -102,7 +102,7 @@
   display: flex;
   margin-right: 14px;
   background-size: cover;
-  background-image: url("public/Icons/instagram-200h.png");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-position: center;
 }
 .footer-container5:hover {
@@ -120,7 +120,7 @@
   display: flex;
   margin-right: 14px;
   background-size: cover;
-  background-image: url("public/Icons/twitch-200h.png");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-position: center;
 }
 .footer-container6:hover {
