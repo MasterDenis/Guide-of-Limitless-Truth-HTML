@@ -22,13 +22,6 @@
 .intro-video-container1 {
   display: contents;
 }
-.intro-video-root-class-name {
-  height: 400px;
-  display: none;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0.00%,rgb(255, 165, 195) 38.00%,rgb(255, 112, 145) 63.00%,rgba(255, 255, 255, 0.38) 100.00%);
-}
 .intro-video-root-class-name1 {
   height: 400px;
   align-self: center;
@@ -56,10 +49,6 @@
   .intro-video-container {
     width: 60%;
     align-self: center;
-  }
-  .intro-video-root-class-name {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0.00%,rgb(255, 165, 195) 38.00%,rgb(255, 112, 145) 63.00%,rgba(255, 255, 255, 0.38) 100.00%);
   }
   .intro-video-root-class-name1 {
     margin-top: var(--dl-space-space-oneandhalfunits);
