@@ -333,7 +333,7 @@
 }
 @media(max-width: 479px) {
   .navbar-navbar {
-    height: var(--dl-size-size-xlarge);
+    height: var(--dl-size-size-large);
     padding-top: var(--dl-space-space-halfunit);
     flex-direction: column;
     background-image: radial-gradient(circle at right bottom, rgba(6, 6, 6, 0.54) 0.00%,rgba(0, 0, 0, 0) 100.00%);
