@@ -22,6 +22,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
+  backdrop-filter: blur(2px);
 }
 .navbar-container01 {
   width: 35%;
@@ -219,6 +220,9 @@
   max-width: 100%;
   background-color: #ffffff;
 }
+.navbar-root-class-name8 {
+  max-width: 100%;
+}
 @media(max-width: 991px) {
   .navbar-container01 {
     padding-left: 10px;
@@ -330,6 +334,9 @@
   .navbar-root-class-name {
     height: 200px;
   }
+  .navbar-root-class-name8 {
+    height: 200px;
+  }
 }
 @media(max-width: 479px) {
   .navbar-navbar {
@@ -383,6 +390,10 @@
     font-size: 3vw;
   }
   .navbar-root-class-name {
+    height: 156px;
+    background-image: radial-gradient(circle at right bottom, rgba(6, 6, 6, 0.54) 0.00%,rgba(0, 0, 0, 0) 100.00%);
+  }
+  .navbar-root-class-name8 {
     height: 156px;
     background-image: radial-gradient(circle at right bottom, rgba(6, 6, 6, 0.54) 0.00%,rgba(0, 0, 0, 0) 100.00%);
   }
