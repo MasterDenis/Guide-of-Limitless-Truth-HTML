@@ -228,6 +228,9 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.navbar-link {
+  display: contents;
+}
 .navbar-container02 {
   width: 55%;
   height: 63px;
@@ -240,6 +243,7 @@
   padding-left: 10px;
   margin-bottom: var(--dl-space-space-halfunit);
   flex-direction: column;
+  text-decoration: none;
 }
 .navbar-pasted-image {
   width: auto;
@@ -273,7 +277,7 @@
   align-items: stretch;
   flex-direction: row;
 }
-.navbar-link {
+.navbar-link1 {
   display: contents;
 }
 .navbar-container05 {
@@ -298,7 +302,7 @@
   font-family: "NeverMind Rounded";
   letter-spacing: 3px;
 }
-.navbar-link1 {
+.navbar-link2 {
   display: contents;
 }
 .navbar-container06 {
@@ -320,7 +324,7 @@
   font-family: "NeverMind Rounded";
   letter-spacing: 3px;
 }
-.navbar-link2 {
+.navbar-link3 {
   display: contents;
 }
 .navbar-container07 {

@@ -22,7 +22,8 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 .app-component-container3 {
   flex: 0 0 auto;
@@ -81,7 +82,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.app-component-link1 {
+.app-component-navlink {
   display: contents;
 }
 .app-component-container7 {

@@ -22,7 +22,8 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
 }
 .app-component-container3 {
   flex: 0 0 auto;
@@ -81,7 +82,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.app-component-link1 {
+.app-component-navlink {
   display: contents;
 }
 .app-component-container7 {
@@ -167,6 +168,9 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.navbar-link {
+  display: contents;
+}
 .navbar-container02 {
   width: 55%;
   height: 63px;
@@ -179,6 +183,7 @@
   padding-left: 10px;
   margin-bottom: var(--dl-space-space-halfunit);
   flex-direction: column;
+  text-decoration: none;
 }
 .navbar-pasted-image {
   width: auto;
@@ -212,7 +217,7 @@
   align-items: stretch;
   flex-direction: row;
 }
-.navbar-link {
+.navbar-link1 {
   display: contents;
 }
 .navbar-container05 {
@@ -237,7 +242,7 @@
   font-family: "NeverMind Rounded";
   letter-spacing: 3px;
 }
-.navbar-link1 {
+.navbar-link2 {
   display: contents;
 }
 .navbar-container06 {
@@ -259,7 +264,7 @@
   font-family: "NeverMind Rounded";
   letter-spacing: 3px;
 }
-.navbar-link2 {
+.navbar-link3 {
   display: contents;
 }
 .navbar-container07 {
@@ -621,7 +626,7 @@
   font-family: "NeverMind Rounded";
   letter-spacing: 1px;
 }
-.home-text06 {
+.home-text08 {
   color: rgb(204, 155, 153);
   display: none;
   align-self: center;
@@ -638,7 +643,7 @@
   flex-direction: row;
   background-color: #CC9B99;
 }
-.home-text13 {
+.home-text15 {
   color: rgb(204, 155, 153);
   display: none;
   align-self: center;
@@ -664,7 +669,7 @@
   margin-left: 39px;
   flex-direction: column;
 }
-.home-text16 {
+.home-text18 {
   color: rgb(202, 179, 160);
   font-size: 2em;
   align-self: flex-start;
@@ -672,7 +677,7 @@
   font-family: "NeverMind Rounded";
   letter-spacing: 1px;
 }
-.home-text17 {
+.home-text19 {
   color: rgb(204, 155, 153);
   display: none;
   align-self: center;
@@ -689,7 +694,7 @@
   flex-direction: row;
   background-color: #CC9B99;
 }
-.home-text24 {
+.home-text26 {
   color: rgb(204, 155, 153);
   display: none;
   align-self: center;
@@ -724,7 +729,6 @@
   background-image: radial-gradient(circle at right bottom, rgba(6, 6, 6, 0.54) 0.00%,rgba(0, 0, 0, 0) 100.00%);
 }
 .home-divination-body1 {
-  flex: 0 0 auto;
   width: 100%;
   height: 1080px;
   display: flex;
@@ -736,10 +740,14 @@
 .home-container09 {
   flex: 0 0 auto;
   width: 50%;
-  height: 100%;
+  height: 95%;
   display: flex;
   align-self: flex-start;
+  margin-top: var(--dl-space-space-unit);
   align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  border-radius: 15px;
+  margin-bottom: var(--dl-space-space-halfunit);
   flex-direction: column;
   backdrop-filter: blur(10px);
   justify-content: center;
@@ -776,10 +784,11 @@
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text27 {
+.home-text29 {
   color: rgb(202, 179, 160);
   font-size: 1.5em;
   align-self: center;
@@ -791,7 +800,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   letter-spacing: 0.2em;
 }
-.home-text31 {
+.home-text33 {
   color: rgb(202, 179, 160);
   align-self: center;
   text-align: center;
@@ -805,15 +814,16 @@
   flex: 0 0 auto;
   width: 100%;
   height: 2px;
-  display: flex;
+  display: none;
   margin-top: var(--dl-space-space-halfunit);
   align-items: center;
   margin-bottom: var(--dl-space-space-halfunit);
   flex-direction: row;
   background-color: #CC9B99;
 }
-.home-text32 {
+.home-text34 {
   color: rgb(202, 179, 160);
+  display: none;
   align-self: center;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
@@ -909,12 +919,12 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
-.home-text33 {
+.home-text35 {
   color: rgb(204, 155, 153);
   align-self: center;
   font-family: "NeverMind Rounded Thin";
 }
-.home-text36 {
+.home-text38 {
   color: rgb(202, 179, 160);
   width: auto;
   font-size: 1.7em;
@@ -938,13 +948,13 @@
   flex-direction: row;
   background-color: #CC9B99;
 }
-.home-text37 {
+.home-text39 {
   color: rgb(204, 155, 153);
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
   font-family: "NeverMind Rounded Thin";
 }
-.home-text40 {
+.home-text42 {
   color: rgb(202, 179, 160);
   font-size: 1.7em;
   align-self: center;
@@ -1045,7 +1055,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: flex-start;
 }
-.home-text41 {
+.home-text43 {
   color: rgb(0, 0, 0);
   height: auto;
   font-size: 32px;
@@ -1054,7 +1064,7 @@
   font-family: "Inter";
   line-height: 48px;
 }
-.home-text42 {
+.home-text44 {
   color: #ffffff;
 }
 .home-container21 {
@@ -1070,7 +1080,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text44 {
+.home-text46 {
   color: #ffffff;
   width: auto;
   height: auto;
@@ -1158,7 +1168,7 @@
   height: 31px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-text45 {
+.home-text47 {
   color: rgb(0, 0, 0);
   height: auto;
   font-size: 32px;
@@ -1180,7 +1190,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text46 {
+.home-text48 {
   color: rgb(169, 169, 170);
   width: auto;
   height: auto;
@@ -1207,7 +1217,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text49 {
+.home-text51 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1232,7 +1242,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text52 {
+.home-text54 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1257,7 +1267,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text55 {
+.home-text57 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1291,7 +1301,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.home-text58 {
+.home-text60 {
   color: rgb(0, 0, 0);
   font-size: 2.5em;
   font-weight: 700;
@@ -1324,7 +1334,7 @@
   min-height: 85px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-text59 {
+.home-text61 {
   color: rgb(255, 255, 255);
   font-size: 2.4em;
 }
@@ -1376,7 +1386,7 @@
   height: 31px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-text60 {
+.home-text62 {
   color: rgb(0, 0, 0);
   height: auto;
   font-size: 32px;
@@ -1398,7 +1408,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text61 {
+.home-text63 {
   color: rgb(169, 169, 170);
   width: auto;
   height: auto;
@@ -1425,7 +1435,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text64 {
+.home-text66 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1450,7 +1460,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text67 {
+.home-text69 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1475,7 +1485,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text70 {
+.home-text72 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1509,7 +1519,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.home-text73 {
+.home-text75 {
   color: rgb(0, 0, 0);
   font-size: 2.5em;
   font-weight: 700;
@@ -1542,7 +1552,7 @@
   min-height: 85px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-text74 {
+.home-text76 {
   color: rgb(255, 255, 255);
   font-size: 2.4em;
 }
@@ -1594,7 +1604,7 @@
   height: 31px;
   margin-right: var(--dl-space-space-unit);
 }
-.home-text75 {
+.home-text77 {
   color: rgb(0, 0, 0);
   height: auto;
   font-size: 32px;
@@ -1616,7 +1626,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text76 {
+.home-text78 {
   color: rgb(169, 169, 170);
   width: auto;
   height: auto;
@@ -1643,7 +1653,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text79 {
+.home-text81 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1668,7 +1678,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text82 {
+.home-text84 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1693,7 +1703,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-text85 {
+.home-text87 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -1727,7 +1737,7 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
 }
-.home-text88 {
+.home-text90 {
   color: rgb(0, 0, 0);
   font-size: 2.5em;
   font-weight: 700;
@@ -1760,7 +1770,7 @@
   min-height: 85px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.home-text89 {
+.home-text91 {
   color: rgb(255, 255, 255);
   font-size: 2.4em;
 }
@@ -1820,7 +1830,7 @@
   flex: 0 0 auto;
   width: var(--dl-size-size-xlarge);
   height: 50%;
-  display: flex;
+  display: none;
   padding: var(--dl-space-space-unit);
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
@@ -1843,7 +1853,7 @@
 .home-container33:hover {
   background-image: linear-gradient(180deg, rgba(76, 85, 76, 0.47) 0.00%,rgba(0, 0, 0, 0.47) 100.00%,rgba(0, 0, 0, 0.47) 54.00%);
 }
-.home-text90 {
+.home-text92 {
   color: rgb(202, 179, 160);
   font-size: 24px;
   align-self: center;
@@ -1864,37 +1874,37 @@
   .home-container06 {
     display: none;
   }
-  .home-text16 {
+  .home-text18 {
     color: rgb(202, 179, 160);
     font-size: 2em;
     font-family: NeverMind Rounded;
     letter-spacing: 1px;
   }
-  .home-text49 {
+  .home-text51 {
     font-size: 1.5em;
   }
-  .home-text52 {
+  .home-text54 {
     font-size: 1.5em;
   }
-  .home-text55 {
+  .home-text57 {
     font-size: 1.5em;
   }
-  .home-text64 {
+  .home-text66 {
     font-size: 1.5em;
   }
-  .home-text67 {
+  .home-text69 {
     font-size: 1.5em;
   }
-  .home-text70 {
+  .home-text72 {
     font-size: 1.5em;
   }
-  .home-text79 {
+  .home-text81 {
     font-size: 1.5em;
   }
-  .home-text82 {
+  .home-text84 {
     font-size: 1.5em;
   }
-  .home-text85 {
+  .home-text87 {
     font-size: 1.5em;
   }
 }
@@ -1948,14 +1958,14 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-text41 {
+  .home-text43 {
     font-size: 2.5em;
   }
   .home-container21 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text44 {
+  .home-text46 {
     font-size: 1.7em;
   }
   .home-container23 {
@@ -1974,29 +1984,29 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-text45 {
+  .home-text47 {
     font-size: 2.5em;
   }
   .home-container24 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text46 {
+  .home-text48 {
     font-size: 1.7em;
   }
-  .home-text49 {
+  .home-text51 {
     font-size: 1.7em;
   }
-  .home-text52 {
+  .home-text54 {
     font-size: 1.7em;
   }
-  .home-text55 {
+  .home-text57 {
     font-size: 1.7em;
   }
-  .home-text58 {
+  .home-text60 {
     font-size: 3em;
   }
-  .home-text59 {
+  .home-text61 {
     font-size: 2.5em;
   }
   .home-container26 {
@@ -2015,29 +2025,29 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-text60 {
+  .home-text62 {
     font-size: 2.5em;
   }
   .home-container27 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text61 {
+  .home-text63 {
     font-size: 1.7em;
   }
-  .home-text64 {
+  .home-text66 {
     font-size: 1.7em;
   }
-  .home-text67 {
+  .home-text69 {
     font-size: 1.7em;
   }
-  .home-text70 {
+  .home-text72 {
     font-size: 1.7em;
   }
-  .home-text73 {
+  .home-text75 {
     font-size: 3em;
   }
-  .home-text74 {
+  .home-text76 {
     font-size: 2.5em;
   }
   .home-container29 {
@@ -2056,29 +2066,29 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-text75 {
+  .home-text77 {
     font-size: 2.5em;
   }
   .home-container30 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text76 {
+  .home-text78 {
     font-size: 1.7em;
   }
-  .home-text79 {
+  .home-text81 {
     font-size: 1.7em;
   }
-  .home-text82 {
+  .home-text84 {
     font-size: 1.7em;
   }
-  .home-text85 {
+  .home-text87 {
     font-size: 1.7em;
   }
-  .home-text88 {
+  .home-text90 {
     font-size: 3em;
   }
-  .home-text89 {
+  .home-text91 {
     font-size: 2.5em;
   }
   .home-container32 {
@@ -2135,7 +2145,7 @@
     flex-direction: row;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-text16 {
+  .home-text18 {
     color: rgb(202, 179, 160);
   }
   .home-divination-second {
@@ -2211,7 +2221,7 @@
   .home-header {
     padding-right: var(--dl-space-space-halfunit);
   }
-  .home-text41 {
+  .home-text43 {
     font-size: 2.3em;
   }
   .home-container21 {
@@ -2230,7 +2240,7 @@
   .home-header1 {
     padding-right: var(--dl-space-space-halfunit);
   }
-  .home-text45 {
+  .home-text47 {
     color: rgb(0, 0, 0);
     font-size: 2.3em;
     font-family: Inter;
@@ -2239,7 +2249,7 @@
   .home-container24 {
     height: var(--dl-size-size-xxlarge);
   }
-  .home-text49 {
+  .home-text51 {
     color: rgb(0, 0, 0);
     font-size: 1.7em;
     font-family: NeverMind Rounded;
@@ -2257,13 +2267,13 @@
   .home-header2 {
     padding-right: var(--dl-space-space-halfunit);
   }
-  .home-text60 {
+  .home-text62 {
     font-size: 2.3em;
   }
   .home-container27 {
     height: var(--dl-size-size-xxlarge);
   }
-  .home-text64 {
+  .home-text66 {
     color: rgb(0, 0, 0);
     font-size: 1.7em;
     font-family: NeverMind Rounded;
@@ -2281,7 +2291,7 @@
   .home-header3 {
     padding-right: var(--dl-space-space-halfunit);
   }
-  .home-text75 {
+  .home-text77 {
     color: rgb(0, 0, 0);
     font-size: 2.3em;
     font-family: Inter;
@@ -2290,7 +2300,7 @@
   .home-container30 {
     height: var(--dl-size-size-xxlarge);
   }
-  .home-text88 {
+  .home-text90 {
     color: rgb(0, 0, 0);
     font-size: 3em;
     font-weight: 700;
@@ -2331,7 +2341,7 @@
     margin-left: 0px;
     justify-content: space-between;
   }
-  .home-text16 {
+  .home-text18 {
     color: rgb(202, 179, 160);
     width: auto;
     height: auto;
@@ -2360,14 +2370,14 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-text27 {
+  .home-text29 {
     font-size: 1.1em;
   }
-  .home-text31 {
+  .home-text33 {
     font-size: 1.5em;
     letter-spacing: 0;
   }
-  .home-text32 {
+  .home-text34 {
     font-size: 1.5em;
   }
   .home-divination-third {
@@ -2384,11 +2394,11 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  .home-text36 {
+  .home-text38 {
     font-size: 1.5em;
     letter-spacing: 0;
   }
-  .home-text40 {
+  .home-text42 {
     font-size: 1.5em;
     letter-spacing: 0;
   }
@@ -2415,13 +2425,13 @@
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-halfunit);
   }
-  .home-text41 {
+  .home-text43 {
     font-size: 2.1em;
   }
   .home-container21 {
     height: var(--dl-size-size-xxlarge);
   }
-  .home-text44 {
+  .home-text46 {
     font-size: 1.5em;
   }
   .home-container23 {
@@ -2437,22 +2447,22 @@
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-halfunit);
   }
-  .home-text45 {
+  .home-text47 {
     font-size: 2.1em;
   }
   .home-container24 {
     height: var(--dl-size-size-xxlarge);
   }
-  .home-text46 {
+  .home-text48 {
     font-size: 1.5em;
   }
-  .home-text49 {
+  .home-text51 {
     font-size: 1.5em;
   }
-  .home-text52 {
+  .home-text54 {
     font-size: 1.5em;
   }
-  .home-text55 {
+  .home-text57 {
     font-size: 1.5em;
   }
   .home-container26 {
@@ -2468,22 +2478,22 @@
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-halfunit);
   }
-  .home-text60 {
+  .home-text62 {
     font-size: 2.1em;
   }
   .home-container27 {
     height: var(--dl-size-size-xxlarge);
   }
-  .home-text61 {
+  .home-text63 {
     font-size: 1.5em;
   }
-  .home-text64 {
+  .home-text66 {
     font-size: 1.5em;
   }
-  .home-text67 {
+  .home-text69 {
     font-size: 1.5em;
   }
-  .home-text70 {
+  .home-text72 {
     font-size: 1.5em;
   }
   .home-container29 {
@@ -2499,22 +2509,22 @@
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-halfunit);
   }
-  .home-text75 {
+  .home-text77 {
     font-size: 2.1em;
   }
   .home-container30 {
     height: var(--dl-size-size-xxlarge);
   }
-  .home-text76 {
+  .home-text78 {
     font-size: 1.5em;
   }
-  .home-text79 {
+  .home-text81 {
     font-size: 1.5em;
   }
-  .home-text82 {
+  .home-text84 {
     font-size: 1.5em;
   }
-  .home-text85 {
+  .home-text87 {
     font-size: 1.5em;
   }
   .home-container32 {
