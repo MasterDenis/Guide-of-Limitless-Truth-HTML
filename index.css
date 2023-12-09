@@ -1823,9 +1823,16 @@
   margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.home-image1 {
-  width: 200px;
-  object-fit: cover;
+.home-link6 {
+  display: contents;
+}
+.home-pasted-image19 {
+  width: auto;
+  height: 35px;
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
 .home-navlink {
   display: contents;
@@ -1864,17 +1871,6 @@
   text-align: center;
   font-family: "NeverMind Rounded";
   letter-spacing: 2px;
-}
-.home-link6 {
-  display: contents;
-}
-.home-pasted-image19 {
-  width: auto;
-  height: 35px;
-  align-self: center;
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  text-decoration: none;
 }
 @media(max-width: 1200px) {
   .home-container01 {
@@ -2115,9 +2111,6 @@
   .home-container32 {
     justify-content: center;
   }
-  .home-image1 {
-    width: auto;
-  }
 }
 @media(max-width: 767px) {
   .home-divination-main {
@@ -2331,6 +2324,9 @@
   }
   .home-container32 {
     justify-content: center;
+  }
+  .home-pasted-image18 {
+    height: 45px;
   }
 }
 @media(max-width: 479px) {
