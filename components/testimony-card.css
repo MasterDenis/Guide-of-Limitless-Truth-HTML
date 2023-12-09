@@ -12,12 +12,13 @@
   min-height: 700px;
   align-items: center;
   margin-left: 0px;
+  text-shadow: 1px 1px 2px black;
   margin-right: 0px;
   border-radius: 20px;
   flex-direction: column;
   backdrop-filter: blur(5px);
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.21);
+  background-color: rgba(191, 191, 191, 0.08);
 }
 .testimony-card-header {
   flex: 0 0 auto;
@@ -46,7 +47,7 @@
   height: 105px;
 }
 .testimony-card-text {
-  color: #ffffff;
+  color: #d6c0ae;
   height: auto;
   font-size: 32px;
   align-self: center;
@@ -55,7 +56,7 @@
   line-height: 48px;
 }
 .testimony-card-text1 {
-  color: #ededed;
+  color: rgb(202, 179, 160);
   font-size: 1.2em;
 }
 .testimony-card-divider {
@@ -67,7 +68,7 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   border-color: #A9A9AA;
-  border-style: dashed;
+  border-style: inset;
   border-width: 5px;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
@@ -98,7 +99,7 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 .testimony-card-text2 {
-  color: #ffffff;
+  color: rgb(202, 179, 160);
   font-size: 1.5em;
   text-align: center;
 }
@@ -111,7 +112,7 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   border-color: #A9A9AA;
-  border-style: dashed;
+  border-style: inset;
   border-width: 5px;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
@@ -121,7 +122,7 @@
   border-bottom-width: 0px;
 }
 .testimony-card-text3 {
-  color: #ffffff;
+  color: rgb(202, 179, 160);
   overflow: auto;
   font-size: 1.3em;
   margin-top: var(--dl-space-space-halfunit);
@@ -135,6 +136,9 @@
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: var(--dl-space-space-unit);
+}
+.testimony-card-root-class-name {
+  background-color: rgba(191, 191, 191, 0.08);
 }
 @media(max-width: 991px) {
   .testimony-card-package-card {
@@ -163,7 +167,7 @@
     padding-right: var(--dl-space-space-halfunit);
   }
   .testimony-card-text {
-    color: rgb(0, 0, 0);
+    color: rgb(202, 179, 160);
     font-size: 2.3em;
     font-family: Inter;
     line-height: 48px;
