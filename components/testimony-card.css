@@ -8,8 +8,8 @@
   align-self: center;
   box-shadow: 0px 0px 14px 0px rgba(2, 2, 2, 0.42);
   margin-top: var(--dl-space-space-unit);
-  max-height: 700px;
-  min-height: 700px;
+  max-height: 800px;
+  min-height: 800px;
   align-items: center;
   margin-left: 0px;
   text-shadow: 1px 1px 2px black;
@@ -139,6 +139,10 @@
 }
 .testimony-card-root-class-name {
   background-color: rgba(191, 191, 191, 0.08);
+}
+.testimony-card-root-class-name1 {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 @media(max-width: 991px) {
   .testimony-card-package-card {
