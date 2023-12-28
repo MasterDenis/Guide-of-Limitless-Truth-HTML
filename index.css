@@ -555,7 +555,7 @@
   align-items: flex-start;
   flex-direction: column;
   background-size: auto,auto,cover;
-  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('https://i.postimg.cc/q4BVxGJ6/sharpend-hero-Recovered-smoothed-8bit.png');
+  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
   background-repeat: top left,center,repeat;
   background-position: right,top left,top;
 }
