@@ -555,7 +555,7 @@
   align-items: flex-start;
   flex-direction: column;
   background-size: auto,auto,cover;
-  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url("public/Images/sharpend-hero-recovered-smoothed-8bit.png");
+  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url("public/Images/sharpend-hero-recovered-smoothed-8bit-d.png");
   background-repeat: top left,center,repeat;
   background-position: right,top left,top;
 }
@@ -709,7 +709,7 @@
   align-items: flex-start;
   flex-direction: column;
   background-size: auto,auto,cover;
-  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/Hero-P2-DOF.png');
+  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/Hero-P2-DOF-d.png');
   background-repeat: top left,center,repeat;
   background-position: right,top left,left;
 }
@@ -844,7 +844,7 @@
   align-items: flex-start;
   flex-direction: column;
   background-size: auto,auto,cover;
-  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/hero-P3-Dof.png');
+  background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/hero-P3-Dof-d.png');
   background-repeat: top left,center,repeat;
   background-position: right,top left,top right;
 }
@@ -1929,7 +1929,7 @@
 }
 @media(max-width: 991px) {
   .home-divination-main {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide2mainhero1.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide2mainhero1-d.png');
   }
   .home-container06 {
     display: none;
@@ -1941,7 +1941,7 @@
     letter-spacing: 1px;
   }
   .home-divination-second {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero1-32b.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero1-32b-d.png');
   }
   .home-divination-body1 {
     flex: 1;
@@ -1960,7 +1960,7 @@
     font-size: 1.5em;
   }
   .home-divination-third {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero2-3.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero2-3-d.png');
   }
   .home-divination-body2 {
     flex: 1;
@@ -2134,7 +2134,7 @@
 }
 @media(max-width: 767px) {
   .home-divination-main {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide2mainhero2.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide2mainhero2-d.png');
   }
   .home-navbar-space {
     width: 100%;
@@ -2187,7 +2187,7 @@
     letter-spacing: 0.5px;
   }
   .home-divination-second {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero1-2.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero1-2-d.png');
   }
   .home-navbar-space1 {
     width: 100%;
@@ -2210,7 +2210,7 @@
     display: none;
   }
   .home-divination-third {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero2-2.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero2-2-d.png');
   }
   .home-navbar-space2 {
     width: 100%;
@@ -2353,12 +2353,12 @@
 @media(max-width: 479px) {
   .home-container {
     background-size: cover;
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/sharpend-hero-Recovered-smoothed-8bit.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/sharpend-hero-Recovered-smoothed-8bit-d.png');
     background-repeat: repeat;
     background-position: top,top,top right;
   }
   .home-divination-main {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide2mainhero3.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide2mainhero3-d.png');
   }
   .home-navbar-space {
     height: 156px;
@@ -2398,7 +2398,7 @@
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .home-divination-second {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero1-1.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero1-1-d.png');
   }
   .home-navbar-space1 {
     height: var(--dl-size-size-large);
@@ -2422,7 +2422,7 @@
     font-size: 1.5em;
   }
   .home-divination-third {
-    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero2-1.png');
+    background-image: radial-gradient(circle at left top, rgba(244, 244, 244, 0.16) 1.00%,rgba(0, 0, 0, 0) 41.00%),radial-gradient(circle at left top, rgba(4, 4, 4, 0.75) 12.00%,rgba(44, 62, 80, 0.02) 100.00%),url('public/Images/imageewaguide3mainhero2-1-d.png');
   }
   .home-navbar-space2 {
     height: var(--dl-size-size-large);
